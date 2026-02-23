@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Crazy Journal
+title: AntiScience
 ---
 
-欢迎来到 Crazy Journal！  
+欢迎来到 AntiScience！  
 
-文明发展绝对用不上的知识都在这里！
+文明发展的绊脚石！
 
 最新一期：
 {% for post in site.posts %}
