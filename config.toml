@@ -1,0 +1,4 @@
+baseURL = "https://guojunhe78.github.io/crazy-journal/"
+languageCode = "en-us"
+title = "Crazy Journal"
+theme = "hyde"
