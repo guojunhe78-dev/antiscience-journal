@@ -1,0 +1,6 @@
+title: crazy
+description: "荒诞搞笑伪学术期刊"
+baseurl: ""       # 空表示网站在根目录
+url: "https://guojunhe78.github.io/crazy-journal"
+theme: minima     # Jekyll 默认主题
+paginate: 5       # 首页每页显示文章数量
