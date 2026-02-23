@@ -10,3 +10,10 @@ title: AntiScience Journal
 {% for post in site.posts %}
 - [{{ post.title }}]({{ post.url }}) - {{ post.date | date: "%Y-%m-%d" }}
 {% endfor %}
+{% for post in site.posts %}
+<div class="post-preview">
+  <img src="{{ post.cover }}" alt="{{ post.title }}" />
+  <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+  <p>{{ post.date | date: "%Y-%m-%d" }}</p>
+</div>
+{% endfor %}
